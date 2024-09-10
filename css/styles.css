@@ -447,6 +447,10 @@ nav li.active {
   background-color: #FFD3A3;
 }
 
+.hero {
+  float: left;
+}
+
 #footerWrapper {
   background-color: #E4B7A0;
   color: #E2E8CE;
@@ -487,7 +491,7 @@ footer p {
 }
 @media only screen and (min-width: 60rem) {
   header, nav, main, footer {
-    max-width: 60rem;
+    max-width: 95rem;
     margin: auto;
   }
   nav ul {

@@ -17,6 +17,7 @@ body {
   font-family: $defaultFont;
   font-weight: $normalWeight;
   color: $fontColor;
+
 }
 #headerWrapper {
   background-color: #E4B7A0;
@@ -65,6 +66,12 @@ nav {
     }
   }
 
+  // #mainWrapper {
+    
+  // }
+  .hero {
+    float: left;
+  }
 
 // The footer stuff below
 #footerWrapper {
