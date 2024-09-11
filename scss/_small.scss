@@ -17,7 +17,6 @@ body {
   font-family: $defaultFont;
   font-weight: $normalWeight;
   color: $fontColor;
-
 }
 #headerWrapper {
   background-color: #E4B7A0;
@@ -69,10 +68,15 @@ nav {
   // #mainWrapper {
     
   // }
-  .hero {
-    float: left;
-  }
-
+.hero {
+  float: left;
+}
+.hero img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 // Video stuff
 video {
   width: 90%;

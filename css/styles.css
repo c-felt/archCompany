@@ -451,6 +451,13 @@ nav li.active {
   float: left;
 }
 
+.hero img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 video {
   width: 90%;
   margin-left: 5%;
