@@ -19,10 +19,10 @@ body {
   color: $fontColor;
 }
 #headerWrapper {
-  background-color: #E4B7A0;
+  background-color: #2a3c4a;
   // #3D3D3D, #262626
   color: $secondaryColor;
-  border: solid 3px #E4B7A0;
+  border: solid 3px #2a3c4a;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -35,13 +35,15 @@ header {
     margin: 0;
     font-size: 1.2rem;
     font-weight: $normalWeight;
-    color:#262626;
+    color: #F6EEE0;
   }
 }
 
 // Navigation
 #navWrapper {
   background-color: #F6EEE0;
+  margin: 0;
+  padding:0;
 }
 nav {
   ul {
@@ -54,22 +56,22 @@ nav {
       text-align: center;
       text-decoration: none;
       display: block;
-      padding: .5rem $gutter;
-      border-bottom: solid 1px rgba(0,0,0,0.2)
+      padding: .7rem $gutter;
+      border-bottom: solid 1px rgba(0,0,0,0.2);
     }
     ul li:last-child a {
       border-bottom: none;
     }
     li.active {
       background-color: #FFD3A3;
+      border-radius: 10px;
     }
   }
-
-  // #mainWrapper {
     
-  // }
 .hero {
   float: left;
+  margin-bottom: 55px;
+  margin-top: 0;
 }
 .hero img {
   width: 100%;
@@ -77,25 +79,35 @@ nav {
   height: auto;
   display: block;
 }
+
+h2 {
+  text-align: center;
+  margin:0;
+}
+
 // Video stuff
 video {
   width: 90%;
   margin-left: 5%;
 }
 details {
-  margin: .5rem $gutter;
+  margin: 1rem $gutter;
+  
   summary {
-    background-color: beige;
+    background-color: #ffffed;
+    padding: 10px;
+    border-radius: 5px;
   }
 }
 
 // The footer stuff below
 #footerWrapper {
-    background-color: #E4B7A0;
+    background-color: #2a3c4a;
     color: #E2E8CE;
-    border: solid 3px #E4B7A0;
+    border: solid 3px #2a3c4a;
     border-radius: 10px;
     border-radius: 10px;
+    margin-top: 25px;
 }
 footer {
     padding: 0.5rem $gutter;
@@ -103,6 +115,6 @@ footer {
         margin: 0;
         font-weight: $lightWeight;
         text-align: center;
-        color: #262626;
+        color: #F6EEE0;
     }
 }
