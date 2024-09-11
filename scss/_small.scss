@@ -73,6 +73,18 @@ nav {
     float: left;
   }
 
+// Video stuff
+video {
+  width: 90%;
+  margin-left: 5%;
+}
+details {
+  margin: .5rem $gutter;
+  summary {
+    background-color: beige;
+  }
+}
+
 // The footer stuff below
 #footerWrapper {
     background-color: #E4B7A0;

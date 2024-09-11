@@ -451,6 +451,18 @@ nav li.active {
   float: left;
 }
 
+video {
+  width: 90%;
+  margin-left: 5%;
+}
+
+details {
+  margin: 0.5rem 16px;
+}
+details summary {
+  background-color: beige;
+}
+
 #footerWrapper {
   background-color: #E4B7A0;
   color: #E2E8CE;
